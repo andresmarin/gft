@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>GSM JavaScript Test</title>
+
+    <script src="http://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+        crossorigin="anonymous"></script>
+        <script src="cashRegister.js"></script>
+        <script src="index-cr.js"></script>
+   
+</head>
+
+<body>
+    <p><label for="price">Price</label>
+        <input type="text" id="price">
+    </p>
+    <p><label for="hundred">one hundred</label>
+        <input type="text" id="hundred" class="denominations"  value="0">
+    </p>
+    <p><label for="twenty">twenty</label>
+        <input type="text" id="twenty" class="denominations" value="0">
+    </p>
+    <p><label for="ten">ten</label>
+        <input type="text" id="ten" class="denominations" value="0">
+    </p>
+    <p><label for="five">five</label>
+        <input type="text" id="five" class="denominations" value="0">
+    </p>
+    <p><label for="one">one</label>
+        <input type="text" id="one" class="denominations" value="0">
+    </p>
+    <p><label for="quarter">quarter</label>
+        <input type="text" id="quarter" class="denominations" value="0">
+    </p>
+    <p><label for="dime">dime</label>
+        <input type="text" id="dime" class="denominations" value="0">
+    </p>
+    <p><label for="nickel">nickel</label>
+        <input type="text" id="nickel" class="denominations" value="0">
+    </p>
+    <p><label for="penny">penny</label>
+        <input type="text" id="penny" class="denominations" value="0">
+    </p>
+    <p>
+        <button id="payment">Make payment</button>
+        <button id="square">Call square </button>
+    </p>
+
+    <div id="results"></div>
+    
+</body>
+
+</html>
